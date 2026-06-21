@@ -22,3 +22,6 @@ offset = Vector2(0, -46.66667)
 [node name="Weapon" type="Sprite2D" parent="." unique_id=962313237]
 texture = ExtResource("3_qlg0r")
 offset = Vector2(1.5258789e-05, -56.66667)
+
+[node name="Camera2D" type="Camera2D" parent="Weapon" unique_id=1950799563]
+ignore_rotation = false
