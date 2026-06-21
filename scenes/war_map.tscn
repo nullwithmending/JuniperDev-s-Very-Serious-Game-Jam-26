@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dimonvvp88ny4"]
+
+[ext_resource type="PackedScene" uid="uid://bbm6tash1ov3x" path="res://scenes/player.tscn" id="1_cirwa"]
+
+[node name="War Map" type="Node2D" unique_id=125795730]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=844196541]
+offset_right = 1148.0
+offset_bottom = 644.0
+color = Color(0.2976793, 0.5266864, 0.6992626, 1)
+
+[node name="Player" parent="." unique_id=955066533 instance=ExtResource("1_cirwa")]
+position = Vector2(522, 347)
