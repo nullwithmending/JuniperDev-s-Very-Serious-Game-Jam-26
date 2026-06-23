@@ -24,17 +24,11 @@ offset_top = 272.0
 offset_right = 314.0
 offset_bottom = 312.0
 
-[node name="Red Square" parent="." unique_id=610455440 instance=ExtResource("2_ka4mi")]
-position = Vector2(117, 283)
+[node name="CharacterBody2D" parent="." unique_id=610455440 instance=ExtResource("2_ka4mi")]
+position = Vector2(783, 78)
 
-[node name="Red Square2" parent="." unique_id=413804426 instance=ExtResource("2_ka4mi")]
-position = Vector2(117, 166)
+[node name="CharacterBody2D2" parent="." unique_id=171294236 instance=ExtResource("2_ka4mi")]
+position = Vector2(605, 68)
 
-[node name="Red Square3" parent="." unique_id=1321727142 instance=ExtResource("2_ka4mi")]
-position = Vector2(274, 64)
-
-[node name="Red Square4" parent="." unique_id=1768775290 instance=ExtResource("2_ka4mi")]
-position = Vector2(398, 64)
-
-[node name="Red Square5" parent="." unique_id=1487368665 instance=ExtResource("2_ka4mi")]
-position = Vector2(550, 64)
+[node name="CharacterBody2D3" parent="." unique_id=103066107 instance=ExtResource("2_ka4mi")]
+position = Vector2(147, 19)

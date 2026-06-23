@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bhvw0ykoxh3j"]
+
+[ext_resource type="Script" uid="uid://3xofx6os4qo1" path="res://scenes/enemy_movement.gd" id="1_23huy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pe23b"]
+size = Vector2(35, 33)
+
+[node name="Red Square" type="CharacterBody2D" unique_id=610455440]
+script = ExtResource("1_23huy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=238773742]
+position = Vector2(20.5, 20.5)
+shape = SubResource("RectangleShape2D_pe23b")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1792883962]
+
+[node name="ColorRect" type="ColorRect" parent="Sprite2D" unique_id=1261406944]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.9372549, 0.21568628, 0.19607843, 1)
